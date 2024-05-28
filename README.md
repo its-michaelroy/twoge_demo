@@ -48,13 +48,13 @@ Full marks: 100
 ## Grading & Presentation
 Grading will be done by presentation of work. You must also submit a document describing work (see below). The grading rubric is below. 
 
-Present and explain an architecture diagram of your system
-Demo, show, and explain each of the assessment milestones running on your AWS account.
-Submit a document containing the following steps and code or commands.
-All the commands used in the terminal for successful deployment of the application.
-JSON file of S3 bucket policy.
-Nginx configuration
-Twoge daemon
+- Present and explain an architecture diagram of your system
+- Demo, show, and explain each of the assessment milestones running on your AWS account.
+- Submit a document containing the following steps and code or commands.
+- All the commands used in the terminal for successful deployment of the application.
+- JSON file of S3 bucket policy.
+- Nginx configuration
+- Twoge daemon
 
 ## Grading Rubric 
 Grading is pass/fail. 70% or higher (14 / 20) is a passing grade. You are able to retest if you do not pass.  
@@ -62,33 +62,33 @@ Grading is pass/fail. 70% or higher (14 / 20) is a passing grade. You are able t
 ### Milestones
 Marking Total (20 pts)
 
-Milestone 1: 2 pts
-Milestone 2: 2 pts
-Milestone 3: 2 pts
-Milestone 4: 2 pts
-Milestone 5: 2 pts
-Milestone 6: 2 pts
-Milestone 7: 2 pts
-Milestone 8: 2 pts
-Milestone 9: 2 pts
-Architecture Diagram & documentation of steps / commands: 2 pts
+- Milestone 1: 2 pts
+- Milestone 2: 2 pts
+- Milestone 3: 2 pts
+- Milestone 4: 2 pts
+- Milestone 5: 2 pts
+- Milestone 6: 2 pts
+- Milestone 7: 2 pts
+- Milestone 8: 2 pts
+- Milestone 9: 2 pts
+- Architecture Diagram & documentation of steps / commands: 2 pts
 
 ## Assessment Presentation Process:
-Briefly summarize the task/project
-Show diagrams & explain your architecture
-Show twoge running & demo all milestone-related twoge features
-Show relevant AWS console page stuff for each milestone
-Run stress test, show results of stress test, or describe effort to run stress test.
-Depending on time show any other relevant docs or bits of code, starting w/the most important/milestone-specific.
+1. Briefly summarize the task/project
+2. Show diagrams & explain your architecture
+3. Show twoge running & demo all milestone-related twoge features
+4. Show relevant AWS console page stuff for each milestone
+5. Run stress test, show results of stress test, or describe effort to run stress test.
+6. Depending on time show any other relevant docs or bits of code, starting w/the most important/milestone-specific.
 
 ## Topics covered:
-Linux commands 
-Bash scripting 
-EC2
-S3
-IAM
-VPC
-ALB
-ASG
-SNS
+- Linux commands 
+- Bash scripting 
+- EC2
+- S3
+- IAM
+- VPC
+- ALB
+- ASG
+- SNS
 
