@@ -1,5 +1,7 @@
 # Twoge
 
+[Google Doc](https://docs.google.com/document/d/1H8H8iG8tLx-cUKVAzlM9yOGHkM3Gx_LcA9CHK7g8y6g)
+
 Elon Musk, the renowned entrepreneur, is developing a new version of Twitter called "Twoge" where users are only allowed to tweet about Doge. While some may question the need for such an app. He has reached out to Codeplatoon to launch, maintain and deploy the app. 
 
 Introducing **Twoge**, the latest buzz in the world of social media! Created by the genius of Elon Musk, Twoge is the only platform where you can share your thoughts about Doge, and nothing else.
