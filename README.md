@@ -22,28 +22,28 @@ Full marks: 100
 
 ## Rubric
 
-AWS Services and their purpose for Twoge
-AWS EC2 (Elastic Compute Cloud) to host your twoge application.
-AWS S3 (Simple Storage Service) to store your static files, such as images, videos, and other assets.
-AWS IAM (Identity and Access Management) to manage service’s access and permissions to AWS resources.
-AWS VPC (Virtual Private Cloud) to create a secure and isolated network environment for your application in public subnet.
-AWS ALB (Application Load Balancer) to distribute incoming traffic across multiple EC2 instances.
-AWS ASG (Auto Scaling Group) to automatically scale your EC2 instances up or down based on the demand coming from aspiring astronauts.
-AWS SNS (Simple Notification Service) to receive notifications about your application's performance and health.
-AWS RDS for database (if you want to be more hacky, you can do deploy postgres database on private subnet)
+- AWS Services and their purpose for Twoge
+- AWS EC2 (Elastic Compute Cloud) to host your twoge application.
+- AWS S3 (Simple Storage Service) to store your static files, such as images, videos, and other assets.
+- AWS IAM (Identity and Access Management) to manage service’s access and permissions to AWS resources.
+- AWS VPC (Virtual Private Cloud) to create a secure and isolated network environment for your application in public subnet.
+- AWS ALB (Application Load Balancer) to distribute incoming traffic across multiple EC2 instances.
+- AWS ASG (Auto Scaling Group) to automatically scale your EC2 instances up or down based on the demand coming from aspiring astronauts.
+- AWS SNS (Simple Notification Service) to receive notifications about your application's performance and health.
+- AWS RDS for database (if you want to be more hacky, you can do deploy postgres database on private subnet)
 
 ## Milestones
 
-Create an Amazon VPC with two public subnets.
+- Create an Amazon VPC with two public subnets.
 [Stretch: bonus point] If you want to be more hacky, you can create two private subnets. Configure a NAT gateway to allow instances in the private subnets to access the internet. And use servers in this subnet as a database. Otherwise simply use RDS postgres.
-Host the static files like images and videos on S3 bucket.
-Create an IAM role that allows public access  of S3 bucket.
-Launch an EC2 instance with an Amazon Linux 2 AMI, using the IAM role you created in step 2. Install and configure your twoge application on the EC2 instance.  If desired use Chandra’s Twoge setup script
-Create an Amazon ALB and configure it to route traffic to your EC2 instance. Add a listener rule to forward traffic to HTTP.
-Create an Amazon ASG that automatically launches EC2 instances when traffic to your application exceeds a certain threshold. Configure the ASG to use the Amazon ALB as the load balancer.
-Use Amazon SNS to receive notifications when the number of EC2 instances in your ASG increases or decreases. Configure an SNS topic to send email notifications to your email address.
-Stop a server and SNS should send email notifications about server shut down.
-Run the instance stress python script and show the ASG in play.
+- Host the static files like images and videos on S3 bucket.
+- Create an IAM role that allows public access  of S3 bucket.
+- Launch an EC2 instance with an Amazon Linux 2 AMI, using the IAM role you created in step 2. Install and configure your twoge application on the EC2 instance.  If desired use Chandra’s Twoge setup script
+- Create an Amazon ALB and configure it to route traffic to your EC2 instance. Add a listener rule to forward traffic to HTTP.
+- Create an Amazon ASG that automatically launches EC2 instances when traffic to your application exceeds a certain threshold. Configure the ASG to use the Amazon ALB as the load balancer.
+- Use Amazon SNS to receive notifications when the number of EC2 instances in your ASG increases or decreases. Configure an SNS topic to send email notifications to your email address.
+- Stop a server and SNS should send email notifications about server shut down.
+- Run the instance stress python script and show the ASG in play.
 
 ## Grading & Presentation
 Grading will be done by presentation of work. You must also submit a document describing work (see below). The grading rubric is below. 
