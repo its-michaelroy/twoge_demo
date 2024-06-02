@@ -54,7 +54,7 @@ Grading will be done by presentation of work. You must also submit a document de
 - All the commands used in the terminal for successful deployment of the application.
 - JSON file of S3 bucket policy.
 - Nginx configuration
-- Twoge daemon
+- Twoge daemon or user-data script
 
 ## Grading Rubric 
 Grading is pass/fail. 70% or higher (14 / 20) is a passing grade. You are able to retest if you do not pass.  
